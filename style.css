@@ -471,10 +471,10 @@ div#sea {
     left: -4px;
     bottom: 4px;
     top: 0px;
-    background-color: #d44;
+    background-color: pink;
     transition: background-color 0.5s ease;
     background-image: url(orsetti.jpg);
-    background-repeat: inherit;
+    background-repeat: no-repeat;
     background-size: 984px;
     width: 989px;
 }
@@ -494,6 +494,13 @@ div#beach {
   background-position: bottom right;
 
   background-repeat: no-repeat;
+}
+.pmobile{
+  position: absolute !important;
+  left: 97px !important;
+  top:800px !important;
+
+  font-size: 73px !important;
 }
 
   }
